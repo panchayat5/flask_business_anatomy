@@ -32,7 +32,7 @@ app.config['MAIL_PASSWORD'] = mail_password
 mail = Mail(app)
 
 # @app.route("/", methods = ['GET'])
-@app.route("/index")
+@app.route("/")
 def HomePage():
     return render_template('index.html')   
 
